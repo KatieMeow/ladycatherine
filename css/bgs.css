@@ -1,0 +1,23 @@
+.bgimage {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+#bgimg1 {
+  background-image: url(../images/ph1.jpg);
+  height: 800px;
+}
+#bgimg2 {
+  background-image: url(../images/ph2.jpg);
+  height: 800px;
+}
+#bgimg3 {
+  background-image: url(../images/ph3.jpg);
+  height: 800px;
+}
+#bgimg4 {
+  background-image: url(../images/ph4.jpg);
+  height: 800px;
+}
