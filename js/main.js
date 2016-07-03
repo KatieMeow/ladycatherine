@@ -27,7 +27,6 @@ jQuery(function($) {
     var scrollTop;
 
     //Nice scrollings, yay!
-
     $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
@@ -79,5 +78,10 @@ jQuery(function($) {
             });
             return false;
         });
+    });
+
+    //carousel options
+    $('#quote-carousel').carousel({
+        pause: true, interval: 7000,
     });
 });
