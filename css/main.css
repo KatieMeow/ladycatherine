@@ -215,6 +215,7 @@ ul.blank > li {
     position: relative;
     margin-bottom: 0;
     margin-top: 0;
+    padding-top:30px;
     padding-bottom: 0;
     font-size: 40px;
     text-transform: uppercase;
@@ -518,6 +519,7 @@ ul.blank > li {
     padding: 0 10px 30px 10px;
     margin-top: 30px;
     text-align: center;
+    overflow:hidden;
 }
 
 
@@ -855,7 +857,8 @@ p.book-now {
 #about-me .box,
 #my-services .box,
 #rates .box,
-#events .box,
+#gallery .box,
+#testimonials .box,
 #footer {
     background: url('../images/leather.jpg') top left repeat;
 }
@@ -925,8 +928,11 @@ p.book-now {
         display: none;
     }
     .nav-holder {
-        width: 820px;
+        /*width: 820px;*/
         margin: 0 auto;
+    }
+    .navbar-nav {
+        width:auto !important;
     }
     .pullquote {
         width: 85%;
@@ -943,7 +949,7 @@ p.book-now {
 @media(max-width:768px) {
     .email {
         float: none!important;
-        margin: 7px auto!important;
+        /*margin: 10px auto!important;*/
     }
     .dtTab {
         display: none;
@@ -955,6 +961,9 @@ p.book-now {
     }
     .aff > div:nth-child(odd) {
         clear: both;
+    }
+    .navbar-default .navbar-nav > li > a {
+        padding:7px 10px;
     }
 }
 
@@ -1061,6 +1070,10 @@ p.book-now {
     }
     .navbar-toggle.open .down {
         display: none;
+    }
+
+    .email img {
+        padding:5px 0;
     }
     .up {
         display: none;
